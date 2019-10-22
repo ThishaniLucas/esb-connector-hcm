@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   Copyright (c) 2019, WSO2 Inc. (http://www.wso2.org) All Rights Reserved.
+
+   WSO2 Inc. licenses this file to you under the Apache License,
+   Version 2.0 (the "License"); you may not use this file except
+   in compliance with the License.
+   You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing,
+   software distributed under the License is distributed on an
+   "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+   KIND, either express or implied. See the License for the
+   specific language governing permissions and limitations
+   under the License.
+-->
+<component name="hcm" type="synapse/template">
+    <subComponents>
+        <component name="test">
+            <file>test.xml</file>
+            <description>Get New Hire feed</description>
+        </component>
+        <component name="init">
+            <file>init.xml</file>
+            <description>Get New Hire feed</description>
+        </component>
+        <component name="getNewHireFeed">
+            <file>getNewHireFeed.xml</file>
+            <description>Get New Hire feed</description>
+        </component>
+        <component name="getEmpUpdateFeed">
+            <file>getEmpUpdateFeed.xml</file>
+            <description>Get Employee Update feed</description>
+        </component>
+        <component name="getAssignmentUpdateFeed">
+            <file>getAssignmentUpdateFeed.xml</file>
+            <description>Get Assignment Update feed</description>
+        </component>
+        <component name="getEmpTerminationFeed">
+            <file>getEmpTerminationFeed.xml</file>
+            <description>Get Employee Termination feed</description>
+        </component>
+        <component name="getEmployee">
+            <file>getEmployee.xml</file>
+            <description>Get Employee operation</description>
+        </component>
+        <component name="getAllEmployees">
+            <file>getAllEmployees.xml</file>
+            <description>Get all Employees operation</description>
+        </component>
+        <component name="getJob">
+            <file>getJob.xml</file>
+            <description>Get Job operation</description>
+        </component>
+        <component name="getOrganization">
+            <file>getOrganization.xml</file>
+            <description>Get Organization operation</description>
+        </component>
+        <component name="getLocation">
+            <file>getLocation.xml</file>
+            <description>Get Location operation</description>
+        </component>
+        <component name="getPersonType">
+            <file>getPersonType.xml</file>
+            <description>Get PersonType operation</description>
+        </component>
+    </subComponents>
+</component>
